@@ -1,0 +1,105 @@
+/* PC */
+@media (min-height: 64em) {
+
+}
+
+/* Tablet & Mobile */
+@media (max-height: 63.9375em) {
+    #nav .subnav a {
+        padding: 5px 24px;
+    }
+
+    .place-tickets-btn {
+        padding: 16px 20px;
+    }
+
+    .contact-form .form-info {
+        line-height: 2;
+        opacity: 0.8;
+    }
+
+    .contact-form .form-control {
+        padding: 14px;
+    }
+    
+    .contact-form .form-submit-btn {
+        padding: 15px 20px;
+    }
+
+    #footer .brand-lists a {
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    #footer .copy-right a {
+        padding-top: 16px;
+        display: inline-block;
+    }
+
+}
+
+/* Tablet */
+@media (min-height:46.1875em) and (max-height: 63.9375em) {
+
+}
+
+/* Mobile */
+@media (max-height: 46.1875em) {
+    
+    .s-mt-8 {
+        margin-top: 8px !important;
+        }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #header {
+    overflow: hidden;
+    }
+    
+    .mobile-menu-btn {
+        display: inline-block;
+    }
+
+    .search-btn {
+        display: none;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        display: block;
+        padding: 1px 24px;
+    }
+
+    #nav > li:hover > a,
+    #nav .subnav > li:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    #nav .subnav {
+        position: inherit;
+        background-color: #888;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 34px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+}
